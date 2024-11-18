@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard - BandShare</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script> <!-- Link to external JS file -->
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="appbar">
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="user-settings.html">User Settings</a>
+            <a href="network-data.html">Network Data</a>
+            <a href="billing-overview.html">Billing Overview</a>
+            <a href="analytics.html">Analytics</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Dashboard Overview</h2>
+            <div class="grid">
+                <div><strong>Total Bandwidth:</strong> <span id="bandwidth">0</span> MB</div>
+                <div><strong>Active Alerts:</strong> 2</div>
+                <div><strong>Billing Status:</strong> Paid</div>
+                <div><strong>Tokens:</strong> <span id="tokens">0</span></div>
+            </div>
+            <!-- Network Usage Graph -->
+            <canvas id="networkGraph" width="400" height="200"></canvas>
+        </section>
+    </main>
+</body>
+</html>

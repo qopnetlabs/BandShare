@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.appbar {
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.card {
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.primary-btn {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}

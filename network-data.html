@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Network Data - BandShare</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="appbar">
+        <h1>Network Data</h1>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="user-settings.html">User Settings</a>
+            <a href="network-data.html">Network Data</a>
+            <a href="billing-overview.html">Billing Overview</a>
+            <a href="analytics.html">Analytics</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="card">
+            <h2>Filter Options</h2>
+            <div class="filter-bar">
+                <input type="date"> to <input type="date">
+                <button class="primary-btn">Apply Filters</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source IP</th>
+                        <th>Destination IP</th>
+                        <th>Bandwidth Usage</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>192.168.1.1</td>
+                        <td>10.0.0.2</td>
+                        <td>200 MB</td>
+                        <td>12:30 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
